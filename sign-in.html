@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trimik SWE'18:SUST</title>
+
+    <!--bootstrap CND-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Libraries font Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Main Stylesheet File -->
+    <link href="chat.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top py-3" id="mainNav">
+            <div class="container"><a href="index.html"
+                    class="navbar-brand navbar-expand-lg navbar-light text-uppercase  font-weight-bold"><img
+                        src="./img/logo.png" width="80px"></a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="index.html"
+                                class="nav-link text-uppercase font-weight-bold">Home <span
+                                    class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="member.html"
+                                class="nav-link text-uppercase font-weight-bold">Member</a></li>
+                        <li class="nav-item"><a href="profile.html"
+                                class="nav-link text-uppercase font-weight-bold">Profile</a></li>
+                        <li class="nav-item"><a href="chat.html"
+                                class="nav-link text-uppercase font-weight-bold">Message</a></li>
+                        <li class="nav-item"><a href="sign-in.html"
+                                class="nav-link text-uppercase font-weight-bold">Sign in</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script src="script.js"></script>
+
+
+    </header>
+
+
+
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <!-- The image half -->
+            <div class="col-md-6 d-none d-md-flex bg-image"></div>
+
+
+            <!-- The content half -->
+            <div class="col-md-6 bg-light">
+                <div class="login d-flex align-items-center py-5">
+
+                    <!-- Demo content-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-7 mx-auto">
+                                <h3 class="h2 font-weight-bold mb-2 font-italic ">Sign IN first!</h3>
+                                <hr class="hr1">
+                                <p class="text-muted mb-4">Enter your Username And password</p>
+                                <form>
+                                    <div class="form-group mb-3">
+                                        <input id="inputEmail" type="email" placeholder="Username" required=""
+                                            autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input id="inputPassword" type="password" placeholder="Password" required=""
+                                            class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input id="customCheck1" type="checkbox" checked class="custom-control-input">
+                                        <label for="customCheck1" class="custom-control-label">Remember password</label>
+                                    </div>
+                                    <button type="submit"
+                                        class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign
+                                        in</button>
+                                    <div class="text-center d-flex justify-content-between mt-4">
+                                        <p>OR,<a href="create.html" class="font-italic text-muted">
+                                                <u>Create an account</u></a></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- End -->
+
+                </div>
+            </div><!-- End -->
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="sticky-footer" class="py-4 bg-info text-black-100">
+        <div class="container text-center">
+            <hr>
+
+            <p class="text-white">Developed By &copy; <a href="https://.facebook.com/fahim.iftekhar.efto"
+                    style="color: brown;">Fahim
+                    Iftekhar Efto</a></p>
+        </div>
+    </footer>
+</body>
+
+
+
+
+</html>
